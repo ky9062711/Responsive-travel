@@ -1,0 +1,74 @@
+body{
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header{
+  height: 100px;
+ width: 100%;
+ background-color: rgba(100, 100, 100, 0.5);
+ background: hsla(0,0%,100%,.3);
+ position: static;
+ font-family: 'Abril Fatface';
+ font-size: 18pt;
+ text-align: center;
+}
+img{
+  width: 100%;
+  height: auto;
+  margin: 0 0 10px 0;
+}
+.columns{
+  padding: 50px 10px 5px 10px;
+  line-height: 1.5;
+}
+.bonito, .fortaleza, .patanal{
+  align-items: center;
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.columnbox{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.visabox{
+  background: hsla(0,0%,100%,.3);
+  padding: 20px;
+  font-size: 13px;
+  margin: 0 0 15px 0;
+}
+.helphints{
+  background: hsla(0,0%,100%,.3);
+  padding: 20px;
+  font-size: 13px;
+  margin: 0 0 15px 0;
+}
+h3{
+  text-align: center;
+  font-family: 'Abril Fatface';
+  font-size: 24pt;
+  background: hsla(0,0%,100%,.3);
+}
+.toppic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+h2{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Abril Fatface';
+}
+p{
+  text-align: center;
+  font-family: 'Abril Fatface';
+  background: hsla(0,0%,100%,.3);
+}
+.stack{
+  width: 100%;
+  margin: auto;
+  max-width: 1200px;
+}
